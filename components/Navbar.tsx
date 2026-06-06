@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { SITE_INFO } from "@/lib/constants";
-import { SquareMessage } from "lucide-react";
+import { MessageSquare } from "lucide-react";
 
 export function Navbar() {
   return (
@@ -22,7 +22,7 @@ export function Navbar() {
             rel="noopener noreferrer"
             className="hidden lg:flex items-center gap-2 text-[#25D366] font-bold hover:text-[#128C7E] transition-colors"
           >
-            <SquareMessage size={18} />
+            <MessageSquare size={18} />
             Chat Now
           </a>
           <Link href="#rfq" className="btn-primary py-2 px-6 rounded shadow-md">Get a Quote</Link>

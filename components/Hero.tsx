@@ -1,5 +1,5 @@
 import { SITE_INFO } from "@/lib/constants";
-import { SquareMessage } from "lucide-react";
+import { MessageSquare } from "lucide-react";
 
 export function Hero() {
   return (
@@ -27,7 +27,7 @@ export function Hero() {
               rel="noopener noreferrer"
               className="bg-[#25D366] hover:bg-[#128C7E] text-white px-8 py-4 rounded font-bold transition-all text-center flex items-center justify-center gap-2"
             >
-              <SquareMessage size={20} /> Chat on WhatsApp
+              <MessageSquare size={20} /> Chat on WhatsApp
             </a>
           </div>
           

@@ -1,5 +1,5 @@
 import { FAQ_ITEMS } from "@/lib/constants";
-import { CircleHelp } from "lucide-react";
+import { HelpCircle } from "lucide-react";
 
 export function FAQ() {
   const jsonLd = {
@@ -24,7 +24,7 @@ export function FAQ() {
         />
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4 flex items-center justify-center gap-2">
-            <CircleHelp className="text-primary" />
+            <HelpCircle className="text-primary" />
             Frequently Asked Questions
           </h2>
           <p className="text-gray-600">Quick answers for wholesale buyers and distributors.</p>

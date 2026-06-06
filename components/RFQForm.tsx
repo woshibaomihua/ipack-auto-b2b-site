@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { SITE_INFO } from "@/lib/constants";
-import { SendHorizontal, SquareMessage, UploadCloud } from "lucide-react";
+import { SendHorizontal, MessageSquare, UploadCloud } from "lucide-react";
 
 export function RFQForm() {
   const [submitted, setSubmitted] = useState(false);
@@ -25,7 +25,7 @@ export function RFQForm() {
         <p className="text-blue-100 mb-6">Our sales team will contact you within 1 hour during business hours.</p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a href={SITE_INFO.contact.whatsappLink} className="bg-[#25D366] text-white px-6 py-3 rounded-lg font-bold flex items-center justify-center gap-2">
-            <SquareMessage size={20} /> Chat on WhatsApp
+            <MessageSquare size={20} /> Chat on WhatsApp
           </a>
           <button onClick={() => setSubmitted(false)} className="text-white underline">Send another inquiry</button>
         </div>
@@ -107,7 +107,7 @@ export function RFQForm() {
           rel="noopener noreferrer"
           className="bg-[#25D366] hover:bg-[#128C7E] text-white px-8 py-5 rounded-xl font-bold text-xl flex items-center justify-center gap-3 transition-all transform hover:scale-105"
         >
-          <SquareMessage size={30} /> Chat on WhatsApp
+          <MessageSquare size={30} /> Chat on WhatsApp
         </a>
         <div className="mt-8 pt-8 border-t border-white/10 text-sm">
           <p className="text-blue-200">Guangzhou I-Pack Auto Parts Co., Limited</p>
