@@ -1,7 +1,7 @@
 import { TRUST_POINTS } from "@/lib/constants";
 import { CircleCheck, Clock, Factory, Star, TrendingUp, Truck } from "lucide-react";
 
-const icons = [Factory, Star, Factory, TrendingUp, Clock, Truck];
+const icons = [CircleCheck, Star, Factory, TrendingUp, Clock, Truck];
 
 export function Features() {
   return (

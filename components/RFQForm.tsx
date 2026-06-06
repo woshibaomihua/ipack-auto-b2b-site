@@ -76,7 +76,7 @@ export function RFQForm() {
                 className="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-10" 
               />
               <div className="w-full px-4 py-2 border rounded-lg flex items-center gap-2 text-gray-500 bg-gray-50">
-                <Upload size={18} />
+                <UploadCloud size={18} />
                 <span className="truncate">{fileName || "Click to upload sample photo"}</span>
               </div>
             </div>
@@ -90,7 +90,7 @@ export function RFQForm() {
         
         <div className="md:col-span-2">
           <button type="submit" className="w-full bg-primary hover:bg-red-700 text-white font-bold text-xl py-4 rounded-lg shadow-lg transition-all flex items-center justify-center gap-2">
-            <Send size={24} /> Get Wholesale Catalog & Price
+            <SendHorizontal size={24} /> Get Wholesale Catalog & Price
           </button>
           <p className="text-center text-xs text-gray-400 mt-4 italic">
             * 100% Quality Guaranteed | Raw Material Traceability Included
@@ -107,7 +107,7 @@ export function RFQForm() {
           rel="noopener noreferrer"
           className="bg-[#25D366] hover:bg-[#128C7E] text-white px-8 py-5 rounded-xl font-bold text-xl flex items-center justify-center gap-3 transition-all transform hover:scale-105"
         >
-          <MessageSquare size={30} /> Chat on WhatsApp
+          <SquareMessage size={30} /> Chat on WhatsApp
         </a>
         <div className="mt-8 pt-8 border-t border-white/10 text-sm">
           <p className="text-blue-200">Guangzhou I-Pack Auto Parts Co., Limited</p>
