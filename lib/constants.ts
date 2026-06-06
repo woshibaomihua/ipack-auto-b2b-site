@@ -9,8 +9,9 @@ export const SITE_INFO = {
     whatsappLink: "https://wa.me/8618620780862",
     address: "Guangzhou, Guangdong, China"
   },
-  domain: "https://ipackautoparts.com"
+  domain: "https://ipackautoparts.com" // chore: update base domain to ipackautoparts.com
 };
+
 
 export const TRUST_POINTS = [
   { label: "Experience", value: "7 Years", desc: "Alibaba Verified Supplier" },
@@ -20,6 +21,7 @@ export const TRUST_POINTS = [
   { label: "Response", value: "≤1h", desc: "Industry-leading speed" },
   { label: "Delivery", value: "100%", desc: "On-time fulfillment rate" }
 ];
+
 
 export const CATEGORIES = [
   { 
@@ -34,37 +36,3 @@ export const CATEGORIES = [
   },
   { 
     name: "Cooling & Suspension", 
-    items: ["Radiators", "Shock Absorbers", "Control Arms", "Engine Mounting"],
-    desc: "Reliable mechanical parts with material traceability."
-  }
-];
-
-export const FAQ_ITEMS = [
-  {
-    q: "Do you provide OEM or ODM customization services?",
-    a: "Yes, we support both OEM and ODM customization. With over 300 collaborating factories, we can develop parts based on your samples or technical drawings."
-  },
-  {
-    q: "How do you ensure the quality of auto parts?",
-    a: "We implement a strict QC process including raw material traceability, in-process quality control, and 100% inspection of finished products before shipment."
-  },
-  {
-    q: "Can you match parts by OE Number or VIN?",
-    a: "Absolutely. We specialize in Japanese and Hybrid vehicles. Provide us with the OE Number, VIN, or vehicle model/year, and our experts will ensure 100% compatibility."
-  },
-  {
-    q: "What is your typical lead time for wholesale orders?",
-    a: "Most orders are processed within 7-15 days depending on quantity. We maintain a high on-time delivery rate of 100% through optimized supply chain management."
-  }
-];
-
-export const VEHICLE_MODELS = [
-  { name: "Toyota Prius", series: "Hybrid Special", image: "prius" },
-  { name: "Toyota Hiace", series: "Commercial", image: "hiace" },
-  { name: "Toyota Corolla", series: "Sedan", image: "corolla" },
-  { name: "Toyota Camry", series: "Sedan", image: "camry" },
-  { name: "Toyota RAV4", series: "SUV", image: "rav4" },
-  { name: "Honda Civic", series: "Sedan", image: "civic" },
-  { name: "Honda CR-V", series: "SUV", image: "crv" },
-  { name: "Suzuki Swift", series: "Hatchback", image: "swift" }
-];
