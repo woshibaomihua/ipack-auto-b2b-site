@@ -1,0 +1,86 @@
+{
+  "note": "Updated demo data with support for single-side products and left + right set kits.",
+  "supported_package_types": [
+    "single",
+    "pair"
+  ],
+  "fields": [
+    "year",
+    "make",
+    "model",
+    "body",
+    "lamp_type",
+    "package_type",
+    "position",
+    "oe_number",
+    "moq",
+    "image"
+  ],
+  "samples": [
+    {
+      "year": 2022,
+      "make": "Toyota",
+      "model": "RAV4",
+      "body": "SUV",
+      "lamp_type": "LED Headlight Assembly",
+      "package_type": "single",
+      "position": "Front Left",
+      "oe_number": "81150-12B10",
+      "moq": "10 PCS",
+      "image": "assets/images/products/headlight-led.webp"
+    },
+    {
+      "year": 2022,
+      "make": "Toyota",
+      "model": "RAV4",
+      "body": "SUV",
+      "lamp_type": "LED Headlight Assembly",
+      "package_type": "pair",
+      "position": "Front Left + Right Set",
+      "oe_number": "81170-12B10",
+      "moq": "5 SETS",
+      "image": "assets/images/products/headlight-set.webp"
+    }
+  ],
+  "image_variants": {
+    "headlight_left": "assets/images/products/headlight-led.webp",
+    "headlight_right": "assets/images/products/headlight-led-right.webp",
+    "headlight_pair": "assets/images/products/headlight-set.webp",
+    "tail_light_sedan_left": "assets/images/products/tail-light-led.webp",
+    "tail_light_sedan_right": "assets/images/products/tail-light-led-right.webp",
+    "tail_light_sedan_pair": "assets/images/products/tail-light-sedan-set.webp",
+    "tail_light_suv_left": "assets/images/products/tail-light-suv.webp",
+    "tail_light_suv_right": "assets/images/products/tail-light-suv-right.webp",
+    "tail_light_suv_pair": "assets/images/products/tail-light-suv-set.webp",
+    "fog_left": "assets/images/products/fog-lamp.webp",
+    "fog_right": "assets/images/products/fog-lamp-right.webp",
+    "fog_pair": "assets/images/products/fog-lamp-set.webp",
+    "drl_left": "assets/images/products/drl-module.webp",
+    "drl_right": "assets/images/products/drl-module-right.webp",
+    "drl_pair": "assets/images/products/drl-module-set.webp"
+  },
+  "expanded_vehicle_models": [
+    "Toyota Highlander",
+    "Honda Accord",
+    "Ford Explorer",
+    "Chevrolet Tahoe",
+    "Kia K5"
+  ],
+  "asset_profiles": [
+    "sedan",
+    "suv",
+    "pickup",
+    "premium-sedan",
+    "sedan-alt",
+    "suv-alt"
+  ],
+  "expanded_vehicle_models_2": [
+    "Toyota Corolla Cross",
+    "Toyota Land Cruiser",
+    "Nissan Sentra",
+    "Honda Pilot",
+    "Hyundai Santa Fe",
+    "Volkswagen Passat"
+  ],
+  "pair_image_layout": "normal left + right side-by-side on white background"
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Inquiry List / Quote Basket | I-Pack Auto Parts</title>
+<meta content="Build an inquiry list for multiple auto parts and submit one B2B RFQ with vehicle, OE number and quantity details." name="description"/>
+<meta content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" name="robots"/>
+<link href="https://ipackautoparts.com/quote-list.html" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="Inquiry List / Quote Basket | I-Pack Auto Parts" property="og:title"/>
+<meta content="Build an inquiry list for multiple auto parts and submit one B2B RFQ with vehicle, OE number and quantity details." property="og:description"/>
+<meta content="https://ipackautoparts.com/quote-list.html" property="og:url"/>
+<meta content="https://ipackautoparts.com/assets/images/parts-showcase.webp" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="favicon.ico" rel="icon"/>
+<link href="assets/images/favicon.png" rel="apple-touch-icon"/>
+<link href="assets/css/styles.css" rel="stylesheet"/>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Guangzhou I-Pack Auto Parts Co., Limited",
+  "alternateName": "I-Pack Auto Parts",
+  "url": "https://ipackautoparts.com",
+  "email": "info@ipackautoparts.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Guangzhou",
+    "addressCountry": "CN"
+  },
+  "description": "B2B supplier of aftermarket auto lights and body parts for Toyota and Japanese vehicles."
+}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://ipackautoparts.com/index.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Inquiry List",
+      "item": "https://ipackautoparts.com/quote-list.html"
+    }
+  ]
+}</script>
+<!-- Analytics ready: replace GA4_MEASUREMENT_ID / CLARITY_PROJECT_ID before launch if tracking is required.
+<script async src="https://www.googletagmanager.com/gtag/js?id=GA4_MEASUREMENT_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'GA4_MEASUREMENT_ID');
+</script>
+<script>
+  (function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "CLARITY_PROJECT_ID");
+</script>
+--></head>
+<body><div class="topbar">
+<div class="container topbar-inner">
+<span>B2B Auto Lights &amp; Body Parts Supplier | OE Number Matching | Toyota Focus</span>
+<div class="topbar-links">
+<a href="mailto:info@ipackautoparts.com">info@ipackautoparts.com</a>
+<a href="https://wa.me/8618620780862?text=Hi%2C%20I%20am%20interested%20in%20I-Pack%20auto%20parts.%20Please%20help%20confirm%20fitment%20and%20quote.%20Product%20/%20OE%20number%3A%20Vehicle%20model%20/%20year%3A%20Quantity%3BCan%20we%20chat%3F" rel="noopener" target="_blank">WhatsApp: +86 18620780862</a>
+</div>
+</div>
+</div>
+<header class="site-header">
+<div class="container nav-wrap">
+<a class="brand brand-with-logo" href="index.html"><img alt="I-Pack Auto Parts logo" class="brand-logo-img" decoding="async" loading="lazy" src="assets/images/company-logo.webp"/><span class="brand-wording"><strong>I-PACK</strong><em>Auto Parts</em></span></a>
+<button aria-label="Open menu" class="menu-toggle">☰</button>
+<nav class="main-nav"><a href="index.html">Home</a><a href="products.html">Products</a><a href="blog.html">Blog</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+</div>
+</header>
+<main>
+<section class="page-hero">
+<div class="container"><div class="breadcrumb"><a href="index.html">Home</a> / Inquiry List</div><h1>Inquiry List / Quote Basket</h1><p>Add products from catalog pages and submit one RFQ for multiple SKUs. This replaces shopping cart checkout for B2B sourcing.</p></div>
+</section>
+<section class="section">
+<div class="container grid-2">
+<div class="quote-list-panel">
+<h2>Selected Products</h2>
+<div class="quote-autofill-note-v25">
+<strong>Selected products will be written into the RFQ form automatically.</strong>
+<span>You only need to add quantity, destination country and upload or paste product photos.</span>
+</div>
+<div id="quote-list-box"></div>
+</div>
+<div class="quote-list-panel">
+<h2>Submit RFQ</h2>
+<form action="thank-you.html" class="form" data-netlify="true" data-subject="Inquiry List RFQ" enctype="multipart/form-data" method="POST" name="inquiry-list-rfq"><input name="form-name" type="hidden" value="inquiry-list-rfq"/>
+<div class="rfq-form-intro-v23 full">
+<strong>Fast RFQ Form</strong>
+<span>Upload or paste product photos. Send OE number, vehicle model, year, quantity and destination country for faster matching.</span>
+</div>
+<input name="name" placeholder="Your Name" required=""/>
+<input name="email" placeholder="Email / WhatsApp" required=""/>
+<input name="company" placeholder="Company"/>
+<input name="country" placeholder="Destination Country"/>
+<input name="whatsapp" placeholder="WhatsApp / Phone"/>
+<input name="destination" placeholder="Destination Port / Country"/>
+<textarea class="full" id="selected-products" name="selected_products" placeholder="Selected product information will be added automatically after clicking Add to RFQ."></textarea>
+<textarea class="full" name="parts_needed" placeholder="What parts do you need? Example: Toyota Hilux 2016 tail light, 20 pcs, Chile. You can also paste OE number or product photo details here."></textarea><textarea class="full" name="message" placeholder="Vehicle model, OE number, quantity and other requirements"></textarea>
+<div class="image-rfq-zone-v23 full">
+<div class="image-rfq-head-v23">
+<div>
+<strong>Product Photos / OE Label</strong>
+<span>Upload images or paste screenshots directly here.</span>
+</div>
+<label class="upload-btn-v23">
+              Select Images
+              <input accept="image/*" multiple="" name="product_photos" type="file"/>
+</label>
+</div>
+<div aria-label="Paste product photos here" class="paste-dropzone-v23" contenteditable="true" role="textbox" tabindex="0">
+            Click here and press Ctrl+V to paste product photo, OE label or chat screenshot.
+          </div>
+<div aria-live="polite" class="image-preview-grid-v23"></div>
+<input name="pasted_image_summary" type="hidden" value=""/>
+<p class="form-note-v23">Image upload is ready for Netlify/Formspree/custom backend forms. For WhatsApp quick contact, customers can paste/send the same images in chat.</p>
+</div>
+<button class="btn" type="submit">Submit RFQ</button>
+<a class="btn btn-light form-whatsapp-v23 full" href="https://wa.me/8618620780862?text=Hi%2C%20I%20am%20interested%20in%20I-Pack%20auto%20parts.%20Please%20help%20confirm%20fitment%20and%20quote.%20Product%20/%20OE%20number%3A%20Vehicle%20model%20/%20year%3A%20Quantity%3BCan%20we%20chat%3F" rel="noopener" target="_blank">WhatsApp Fitment Check</a>
+</form>
+<p class="note">Production note: connect this form to Netlify Forms, Formspree or your CRM before launch.</p>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="container footer-grid">
+<div>
+<h3>I-Pack Auto Parts</h3>
+<p>B2B supplier of aftermarket headlights, tail lights, fog lights, mirror covers, bumper parts and body parts for Toyota and Japanese vehicles.</p>
+<div class="footer-badges"><span>OE Matching</span><span>Mixed Orders</span><span>Export Packing</span></div>
+</div>
+<div>
+<h4>Core Pages</h4>
+<a href="products.html">Product Catalog</a><a href="blog.html">Blog / Buyer Guides</a>
+<a href="oe-number-search.html">OE Number Search</a>
+<a href="vehicle-search.html">Vehicle Search</a>
+<a href="quote-list.html">Inquiry List</a>
+</div>
+<div>
+<h4>Supplier Capability</h4>
+<a href="quality-control.html">Quality Control</a>
+<a href="packing-process.html">Packing Process</a>
+<a href="export-shipping.html">Export Shipping</a>
+<a href="oem-odm-service.html">OEM / ODM Service</a>
+</div>
+<div>
+<h4>Contact</h4>
+<a href="mailto:info@ipackautoparts.com">info@ipackautoparts.com</a>
+<a href="https://wa.me/8618620780862?text=Hi%2C%20I%20am%20interested%20in%20I-Pack%20auto%20parts.%20Please%20help%20confirm%20fitment%20and%20quote.%20Product%20/%20OE%20number%3A%20Vehicle%20model%20/%20year%3A%20Quantity%3BCan%20we%20chat%3F" rel="noopener" target="_blank">+86 18620780862</a>
+<p>Guangzhou, China</p>
+</div>
+</div>
+<div class="container footer-bottom">
+<span>© 2026 Guangzhou I-Pack Auto Parts Co., Limited. All rights reserved.</span>
+</div>
+</footer>
+<a aria-label="Chat on WhatsApp" class="floating-whatsapp whatsapp-visual-v17" href="https://wa.me/8618620780862?text=Hi%2C%20I%20am%20interested%20in%20I-Pack%20auto%20parts.%20Please%20help%20confirm%20fitment%20and%20quote.%20Product%20/%20OE%20number%3A%20Vehicle%20model%20/%20year%3A%20Quantity%3BCan%20we%20chat%3F" rel="noopener" target="_blank"><span class="wa-icon-wrap"><img alt="WhatsApp auto parts inquiry" decoding="async" loading="lazy" src="assets/images/whatsapp-auto-parts.webp"/></span><span class="wa-label">WhatsApp</span></a>
+<script src="assets/js/main.js"></script></body></html>

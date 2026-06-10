@@ -1,0 +1,31 @@
+# I-Pack Auto Parts
+
+I-Pack Auto Parts is a B2B supplier website for aftermarket auto lights and body parts, focused on Toyota and Japanese vehicles.
+
+## Main products
+- Aftermarket headlights
+- Tail lights / rear lamps
+- Fog lights
+- Mirror covers
+- Bumper parts
+- Grilles and body parts
+- Wheel covers
+
+## Best buyer fit
+- Auto parts importers
+- Wholesalers
+- Repair market suppliers
+- Local distributors
+- Marketplace sellers
+
+## Important pages
+- /products.html
+- /oe-number-search.html
+- /vehicle-search.html
+- /quote-list.html
+- /categories/aftermarket-headlights-supplier.html
+- /vehicles/toyota-prius-headlights.html
+- /blog/why-oe-number-matters-for-auto-light-replacement.html
+
+## RFQ instructions
+Buyers should provide vehicle make, model, year, OE number, side position, quantity, destination country and product photo when available.
