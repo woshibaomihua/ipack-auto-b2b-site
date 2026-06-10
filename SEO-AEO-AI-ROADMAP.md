@@ -17,7 +17,7 @@
 
 ## Launch checklist
 1. Replace all instances of https://ipackautoparts.com with the real domain.
-2. Replace info@ipackautoparts.com, +86 18620780862, and WhatsApp number with real contact details.
+2. Replace lynda.yang@ipackauto.com, +86 18620780862, and WhatsApp number with real contact details.
 3. Connect forms to Netlify Forms, Formspree, CRM, or your backend.
 4. Replace AI concept images with real warehouse, packing, product and shipment photos when available.
 5. Submit sitemap.xml to Google Search Console.

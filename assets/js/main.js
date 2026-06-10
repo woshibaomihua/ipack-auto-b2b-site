@@ -98,7 +98,7 @@ function mailToFromForm(form, subjectPrefix='Website Inquiry') {
   for(const [k,v] of fd.entries()) if(String(v).trim()) lines.push(`${k}: ${v}`);
   const subject = encodeURIComponent(subjectPrefix + ' - ' + (fd.get('company') || fd.get('name') || 'Buyer'));
   const body = encodeURIComponent(lines.join('\n'));
-  window.location.href = `mailto:info@ipackautoparts.com?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:lynda.yang@ipackauto.com?subject=${subject}&body=${body}`;
 }
 
 const vehicleForm = document.getElementById('vehicle-form');

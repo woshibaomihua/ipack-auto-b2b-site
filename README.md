@@ -35,7 +35,7 @@ This is a static B2B inquiry website package for Guangzhou I-Pack Auto Parts Co.
 ## Domain replacement
 Search and replace:
 - https://ipackautoparts.com
-- info@ipackautoparts.com
+- lynda.yang@ipackauto.com
 - +86 18620780862
 - 8613500000000
 
@@ -151,7 +151,7 @@ These assets have been integrated into the homepage and About page to improve br
 
 
 ## V27 Email + WhatsApp Prefill
-- Contact email updated to `info@ipackautoparts.com` across HTML/JS/JSON/MD/XML/TXT files.
+- Contact email updated to `lynda.yang@ipackauto.com` across HTML/JS/JSON/MD/XML/TXT files.
 - WhatsApp links updated to a prefilled buyer inquiry template.
 - WhatsApp number remains `+86 18620780862`.
 
